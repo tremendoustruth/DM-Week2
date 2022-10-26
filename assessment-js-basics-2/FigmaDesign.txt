@@ -1,0 +1,20 @@
+Link to the Design Lab: https://www.figma.com/file/gWb6kesf7CMcEIRLlscMUq/Design-Lab?node-id=0%3A1
+
+Tech Company Extra Credit
+
+***Instagram: Social media and photo sharing site 
+React Native for iOS & Android apps
+Python (Django) server/core of the app
+JavaScript and React.js for the user inerface
+Amazon S3 Cloud Computing Services 
+PostgreSQL for the DB
+
+
+***Honey: a PayPal site that helps users find coupon codes and savings 
+Swift for iOS app
+React Native for Android 
+Javascript and Node.js
+Java and Scala for data pipelines
+CircleCI, Docker, Kubernetes for DevOps and automation
+GraphQL for APIs
+
