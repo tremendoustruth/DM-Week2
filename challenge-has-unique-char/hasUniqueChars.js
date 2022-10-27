@@ -21,7 +21,7 @@ let word = "OneHundred"
 // hasUniqueChars(sampleString);
 
 function hasUniqueChars2(string){
-    let setStr = new Set(string)
+    let setStr = new Set(string) //takes an array-like input and creates a new set of unique values
     if(setStr.size===string.length){return true}
     else {return false}
 }
