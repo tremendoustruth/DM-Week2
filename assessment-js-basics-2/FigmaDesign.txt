@@ -1,4 +1,4 @@
-Link to the Design Lab: https://www.figma.com/file/gWb6kesf7CMcEIRLlscMUq/Design-Lab?node-id=0%3A1
+Link to the Design Lab: https://www.figma.com/file/MWmHJdo89abD4pNx2htG4s/Untitled?node-id=0%3A1
 
 Tech Company Extra Credit
 
@@ -17,4 +17,6 @@ Javascript and Node.js
 Java and Scala for data pipelines
 CircleCI, Docker, Kubernetes for DevOps and automation
 GraphQL for APIs
+
+***Verily: healthcare tech company 
 
