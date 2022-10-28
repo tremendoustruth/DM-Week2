@@ -58,6 +58,7 @@ console.log(cartTotal);
 */
 
 //CODE HERE
+
 function calcFinalPrice(cartTotal, couponValue, tax){
     let postTax = cartTotal*(1+tax); //calculates tax on food 
     let checkout = postTax*(1-couponValue); // calculates the total after the coupon 
@@ -88,9 +89,7 @@ console.log(calcFinalPrice(cartTotal, .20, .06));
 
 /*
     TEXT ANSWER HERE
-
-*/
-// The customer properties will include: Name (integer), Age (integer), email (string), Visits (integer); I chose these properties as they will allow easy, standard categorization of customers for mailing lists and data analytics. The data tyes are integers for numerical values, as floats would not be necessary.
+// The customer properties will include: Name (integer), Age (integer), email (string), Visits (integer); These properties as they will allow easy, standard categorization of customers for mailing lists and data analytics. The data tyes are integers for numerical values, as floats would not be necessary.
 /*
     Now, create a customer object following your own
     guidelines.

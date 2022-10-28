@@ -54,7 +54,8 @@ console.log(pizza);
 
 //CODE HERE
 
-console.log(pizza.popularity);
+console.log(pizza.popularity)
+
 /*
     Second, log the second tag in your pizza's
     tags array.
@@ -64,7 +65,7 @@ console.log(pizza.popularity);
 
 //CODE HERE
 
-console.log(pizza.tags[1]);
+console.log(pizza.tags[1])
 /*
     Third, destructure the price off of the
     pizza object.
@@ -73,9 +74,9 @@ console.log(pizza.tags[1]);
 */
 
 //CODE HERE
-let {price} = pizza;
-console.log(price);
 
+let {price} = pizza
+console.log(price)
 /*
     Fourth, and last, destructure the category
     property.
@@ -84,9 +85,8 @@ console.log(price);
 */
 
 //CODE HERE
-
-let {category} = pizza;
-console.log(category);
+let {category} = pizza
+console.log(category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -145,6 +145,8 @@ const newPizza = [
     }, 
 ]
 
+console.log(newPizza)
+
 //////////////////PROBLEM 4////////////////////
 /* 
     Let's filter the food objects according
@@ -158,10 +160,10 @@ const newPizza = [
 */
 
 //CODE HERE
+
 let desiredTag = "gluten-free";
 const filteredFood = newPizza.filter( (pizzaobj) => pizzaobj["tags"].includes(desiredTag) ); //filters for pizzas desired tag
 console.log(filteredFood); 
-
 
 //////////////////PROBLEM 5////////////////////
 /* 
@@ -208,7 +210,7 @@ const filterByProperty = (property, number, type) => {
     if (type === "above") 
         filteredArray = newPizza.filter( (pizzaobj) => pizzaobj[property] > number ) 
      else 
-        filteredArray = newPizza.filter( (pizzaobj) => pizzaobj[property] < number )
+        filteredArray = newPizza.filter( (pizzaobj) => pizzaobj[property] <= number )
     
     return filteredArray;
 }
@@ -221,4 +223,6 @@ const filterByProperty = (property, number, type) => {
 */
 
 //CODE HERE
-console.log(filterByProperty("popularity", 4, "below"));
+
+let testing = filterByProperty("rating", 5, "below")
+console.log(testing)

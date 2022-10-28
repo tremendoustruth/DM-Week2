@@ -23,9 +23,11 @@
 
 //CODE HERE
 
-let user = "Bushra";
-const greetUser = (username) =>console.log(`Welcome back ${username}`);
-greetUser(user);
+const greetUser = (username) => console.log(`Welcome back, ${username}`)
+greetUser("Bushra")
+
+
+
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -50,16 +52,17 @@ greetUser(user);
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
+
 function canWeDeliver (zipCode){
     for (let i = 0; i < deliveryAreaZipCodes.length; i++){ // checks each delivery zone
         if (deliveryAreaZipCodes[i]===zipCode)
             return "You're in our delivery zone!"
         else
-            return "Sorry not in the delivery zone!"
+            return "Sorry we can't deliver to that zone!"
     }
 }   
 
-console.log(canWeDeliver(85205));
+
 /* 
     Problem 2 Continued
 
@@ -78,14 +81,15 @@ console.log(canWeDeliver(85205));
 */
 
 // CODE HERE
-const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
-const canWeDeliverTwo = (zipCode) => {
-    if (deliveryAreaZipCodes.includes(zipCode))
-        return "You're in our delivery zone!"
-    else
-        return "Sorry, not in the delivery zone!"
-}   
-console.log(canWeDeliverTwo(8520));
+
+function canWeDeliver2(zipCode){
+    if (deliveryAreaZipCodes.includes(zipCode)){return true}
+    else {return false}
+}
+
+console.log(canWeDeliver2(75043))
+console.log(canWeDeliver2(85204))
+
 //////////////////PROBLEM 3////////////////////
 /* 
     Below is an array of objects that have some
@@ -123,6 +127,8 @@ const deals = [
 
 deals[0] = deals[0].title.replace("15", "10");
 console.log(deals[0]);
+
+
 /*
     The restaurant is going to continue its
     family deal for another month. 
@@ -138,5 +144,5 @@ console.log(deals[0]);
 
 //CODE HERE
 
-deals[1] = deals[1].desc.replace("March", "April");
+deals[1] = deals[1].desc.replace("March", "April").trim() 
 console.log(deals);

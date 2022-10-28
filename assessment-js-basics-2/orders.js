@@ -30,12 +30,13 @@
 */
 
 //CODE HERE
+
 class Ticket{
     constructor(items, orderTime, customerId){
-        this.items = items;
-        this.status = "queued" ;
-        this.orderTime = orderTime;
-        this.customerId = customerId;
+        this.items = items,
+        this.orderTime = orderTime,
+        this.customerId = customerId,
+        this.status = "queued" 
     }
     updateStatus(newStatus){
         this.status=newStatus
@@ -43,7 +44,8 @@ class Ticket{
     }
 }
 
- 
+
+
 /*
     Create a new instance of your class.
     Save it to a variable called `firstTicket`.
@@ -56,8 +58,10 @@ class Ticket{
 */
 
 //CODE HERE
-let firstTicket = new Ticket(["pizza", "bread", "soda"], 7, 575)
-console.log(firstTicket);
+
+let firstTicket = new Ticket(["pizza, bread, soda"], "7:03", 575)
+console.log(firstTicket)
+
 /*
     Call the `updateStatus` method on
     `firstTicket` passing in the string
@@ -65,4 +69,7 @@ console.log(firstTicket);
 */
 
 //CODE HERE
-firstTicket.updateStatus("cooking");
+
+firstTicket.updateStatus("cooking")
+console.log(firstTicket.status)
+console.log(firstTicket)
